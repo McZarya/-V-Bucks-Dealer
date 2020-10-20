@@ -4,7 +4,7 @@
 
 # Change Log
 Version 1 release
-
+#
 Install Instructions
 
 1: Open bot.js in your code editor and edit the client.login(The Bot Token) at the bottom of the page.
