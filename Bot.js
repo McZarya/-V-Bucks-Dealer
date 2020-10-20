@@ -123,6 +123,10 @@ if(command == "honrey") { // Are you honrey?
 }
 
 //===============================================================================================================
+/*if (command == 'rules') { // Check NotePad.txt for links
+
+}*/
+//===============================================================================================================
 if(command == "kick") { // Kicks a specified user
     if(message.channel.type === 'DM') { // Check if message channel is a direct message 
         message.channel.send("I can't kick from DM's. Try again in the server"); // this causes the bot to stroke out and crash if DMed... Too Bad!!!
