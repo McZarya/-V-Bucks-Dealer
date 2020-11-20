@@ -123,6 +123,15 @@ if(command == "honrey") { // Are you honrey?
 }
 
 //===============================================================================================================
+if(command == "lemons") { // Why am I banned, I swear I didnt do anything wrong?
+    message.channel.send("Where are my fucking lemons!, I swear to god tupper im coming over and if I find even a single lemon up your ass im bleaching your eyes!");
+    for (let lemons = 0; lemons < 24; lemons++) {
+        message.channel.send("🍋");  
+        //guild.members.ban.random(); // Dont touch you fucking sped 
+    } 
+}
+
+//===============================================================================================================
 /*if (command == 'rules') { // Check NotePad.txt for links
 
 }*/
