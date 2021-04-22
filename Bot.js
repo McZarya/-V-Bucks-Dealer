@@ -31,11 +31,11 @@ const cmdsArray = [
 ];
 
 const changelog = [
-    "V Bucks Dealer Version 1.0.0",
+    "V Bucks Dealer Version 1.1.0",
     " ",
-    "Oh Whats this",
+    "Copy Cat Command",
     " ",
-    "Honrey ;)",
+    "Mocks a chosen user for all eternity",
     " "
 ]
 
@@ -95,7 +95,7 @@ if (command == 'avatar') {
 
 //===============================================================================================================
 if(command == "changelog"){
-    message.reply("Here is the most recent update.");
+    message.channel.send("Here is the most recent update.");
     const embed = new Discord.RichEmbed()
     .addField("Change Log", changelog)
     .addField("Sanity Lost", "0");
@@ -293,7 +293,7 @@ if(command == "purge") { // deletes a specified amount of messages
 
 //===============================================================================================================
 client.on('message', message => { 
-	if (message.author.id === "") { // <--- Enter User ID for comedy
+	if (message.author.id === "199875176035254273") { // <--- Enter User ID for comedy
         message.reply(message.content + ", Faggot");
 	}
 });
