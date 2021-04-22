@@ -1,4 +1,4 @@
-# McZarya's V-Bucks Dealer V1.1.1, Created By Reflux Softworks And Developed By McZarya
+# V-Bucks Dealer V1.1.1, Developed By McZarya
 
 ![](Vbucks.gif)
 
