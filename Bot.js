@@ -43,8 +43,8 @@ const changelog = [
 client.once('ready', () => { // Shit to be spammed in Console upon launch.
     console.log('====================================================================================================')
     console.log("McZarya's V-Bucks Dealer V1.0.0");
-    console.log("Created By Reflux Softworks And Developed By McZarya.")
-    console.log("Reflux Softworks or its employees not responsible for anything you do with this bot.")
+    console.log("Created And Developed By McZarya.")
+    console.log("McZarya is not responsible for anything you do with this bot.")
     console.log('====================================================================================================')
     console.log('Ready To Surppress The Masses');
     console.log('====================================================================================================')
@@ -102,7 +102,7 @@ if(command == "changelog"){
     message.channel.send({embed: embed});
 }
 
-//===============================================================================================================
+//=============================================================================================================== // Below two modules are still Work I proccess  
 /*if(command == "stats"){
     let statsembed = new Discord.RichEmbed()
         .setTitle('Bot Stats!')
@@ -113,7 +113,7 @@ if(command == "changelog"){
 }*/
 //===============================================================================================================
 /*if(command == "say"){ // Makes the bot say what you tell it to
-
+ 
 */
 
 //===============================================================================================================
@@ -125,7 +125,7 @@ if(command == "honrey") { // Are you honrey?
 //===============================================================================================================
 if(command == "lemons") { // Why am I banned, I swear I didnt do anything wrong?
     message.channel.send("Where are my fucking lemons!, I swear to god tupper im coming over and if I find even a single lemon up your ass im bleaching your eyes!");
-    for (let lemons = 0; lemons < 24; lemons++) {
+    for (let lemons = 0; lemons < 24; lemons++) { // one lemon for every hour I was banned 
         message.channel.send("🍋");  
         //guild.members.ban.random(); // Dont touch you fucking sped 
     } 
@@ -138,7 +138,7 @@ if(command == "lemons") { // Why am I banned, I swear I didnt do anything wrong?
 //===============================================================================================================
 if(command == "kick") { // Kicks a specified user
     if(message.channel.type === 'DM') { // Check if message channel is a direct message 
-        message.channel.send("I can't kick from DM's. Try again in the server"); // this causes the bot to stroke out and crash if DMed... Too Bad!!!
+        message.channel.send("I can't kick from DM's. Try again in the server"); 
         return;
     };
 
@@ -286,12 +286,19 @@ if(command == "unmute") { // Mute a specified user
 //===============================================================================================================
 if(command == "purge") { // deletes a specified amount of messages
     var dn = message.content.split(" ")[1];
-    //var fdn = dn + 1; // Can't get the bot to compensate for the command entry... Too Bad!!! so till I figure it out yall just gotta take the amount of messages you want gone and add 1 
+    var fdn = dn + 1; -
     message.channel.bulkDelete(dn);
     message.channel.send("Successfully deleted " + dn + " message(s)!")
   }
 
 //===============================================================================================================
+client.on('message', message => { 
+	if (message.author.id === "") { // <--- Enter User ID for comedy
+        message.reply(message.content + ", Faggot");
+	}
+});
+
+  //===============================================================================================================
 /* if(command == "calc") { // Causes bot to crash if a invalid operation is entered (X instead of *)... Too Bad!!!
     var ca = message.content.substring(message.content.indexOf(" "));
     message.reply(ca + " is " + eval(ca).toFixed(2));
