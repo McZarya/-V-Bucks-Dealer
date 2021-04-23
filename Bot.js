@@ -31,18 +31,18 @@ const cmdsArray = [
 ];
 
 const changelog = [
-    "V Bucks Dealer Version 1.1.0",
+    "V Bucks Dealer Version 1.1.1",
     " ",
-    "Copy Cat Command",
+    "Bug Fix:",
     " ",
-    "Mocks a chosen user for all eternity",
+    "Fixed an issue with the bots status",
     " "
 ]
 
 
 client.once('ready', () => { // Shit to be spammed in Console upon launch.
     console.log('====================================================================================================')
-    console.log("McZarya's V-Bucks Dealer V1.0.0");
+    console.log("McZarya's V-Bucks Dealer V1.1.1");
     console.log("Created And Developed By McZarya.")
     console.log("McZarya is not responsible for anything you do with this bot.")
     console.log('====================================================================================================')
@@ -52,12 +52,13 @@ client.once('ready', () => { // Shit to be spammed in Console upon launch.
     client.user.setStatus('dnd') //Bot's status and game/streaming. dnd, idle, online
     client.user.setPresence({
         game: {
-            name: 'To Police Scanners ',
+            name: 'Police Scanners ',
             type: "Listening", // Playing, Listening, Watching, STREAMING
 			// url: "URL Here" <- link for stream when using the 'STREAMING' status
         }
     });
 });
+
 
 
 client.on('message', message => { // Command List Start

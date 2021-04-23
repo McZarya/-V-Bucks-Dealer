@@ -1,10 +1,10 @@
-# McZarya's V-Bucks Dealer V1.1.1, Created By Reflux Softworks And Developed By McZarya
+# V-Bucks Dealer V1.1.1, Developed By McZarya
 
 ![](Vbucks.gif)
 
 # Change Log
 Copy Cat Command
-    Mocks a chosen user for all eternity 
+    Bug Fix: Fixed an issue with the bots status
 #
 Install Instructions
 
@@ -16,4 +16,4 @@ Once you have that done, save the file.
 
 3: Once it has finished installing all the dependencies, you can run start.bat.
 
-Reflux Softworks or its employees not responsible for anything you do with this bot.
+I am not responsible for anything you do with this bot.
