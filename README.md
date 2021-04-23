@@ -3,8 +3,7 @@
 ![](Vbucks.gif)
 
 # Change Log
-Copy Cat Command
-    Bug Fix: Fixed an issue with the bots status
+  Bug Fix: Fixed an issue with the bots status
 #
 Install Instructions
 
