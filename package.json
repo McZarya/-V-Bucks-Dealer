@@ -1,6 +1,6 @@
 {
   "name": "vbuck_dealer",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A Sped Bot",
   "main": "bot.js",
   "scripts": {
